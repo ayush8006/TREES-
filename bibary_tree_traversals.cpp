@@ -10,6 +10,8 @@ public:
     BinaryTreeNode* right;
 
     BinaryTreeNode(int value) : val(value), left(nullptr), right(nullptr) {}
+
+    
     ~BinaryTreeNode() {
         delete left;
         delete right;
